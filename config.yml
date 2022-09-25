@@ -6,10 +6,11 @@ engine:                                   # Engine settings.
   ponder: true                            # Think on opponent's time.
   polyglot:
     enabled: true                         # Activate polyglot book.
- book:
-      standard:              # List of book file paths for variant standard.
-        - StarTwinkLight-book
-        - lichess-book.bin
+    books:
+      white: "StarTwinkLight-book"                      # Name of the book to use as white.
+      black: "lichess-book.bin"                         # Name of the book to use as black.
+      standard: null            # Name of the book to use if there is no specific book for white, black or chess960.
+      chess960: null                      # Name of the book to use for Chess960.
     selection: "best_move"                # Move selection is one of "weighted_random", "uniform_random" or "best_move".
   pybook:
     enabled: false                        # Activate pybook.
