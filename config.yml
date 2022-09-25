@@ -90,4 +90,4 @@ matchmaking:
 
 books: 
     StarTwinkLight-book: "./engines/StarTwinkLight-book.bin"  # Name of the opening book (to be used above in the polyglot section) and path to the polyglot opening book.  
-    lichess-book.bin: "./engines/lichess-book.bin"
+    lichess-book.bin: "./engines/lichess-book(1).bin"
